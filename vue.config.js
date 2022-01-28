@@ -1,5 +1,9 @@
 module.exports = {
   pwa: {
+    workboxPluginMode: "InjectManifest",
+    workboxOptions: {
+      swSrc: "public/service-worker.js",
+    },
     manifestOptions: {
       name: "Concert Rater",
       short_name: "CONRA",
