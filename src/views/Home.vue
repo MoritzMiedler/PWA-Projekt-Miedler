@@ -1,15 +1,18 @@
 <template>
   <div>
-    <camera :requestAccess="true"></camera>
+    <Camera :requestAccess="true">
+      <div slot="capture" name="capture">Capture</div>
+      <div name="fullscreen">Toggle camera in fullscreen</div>
+    </Camera>
   </div>
 </template>
 
 <script>
-import { camera } from "vue-capture";
+import { Camera } from "vue-capture";
 
 export default {
   name: "Home",
 
-  components: { camera },
+  components: { Camera },
 };
 </script>
