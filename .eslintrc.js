@@ -13,5 +13,6 @@ module.exports = {
     quotes: process.env.NODE_ENV === "production" ? "warn" : "off",
     "import/extensions": process.env.NODE_ENV === "production" ? "warn" : "off",
     quotes: process.env.NODE_ENV === "production" ? "warn" : "off",
+    "no-multi-assign": process.env.NODE_ENV === "production" ? "warn" : "off",
   },
 };

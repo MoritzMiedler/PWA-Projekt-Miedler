@@ -15,6 +15,7 @@
     "vue": "^2.6.11",
     "vue-capture": "^0.1.7",
     "vue-router": "^3.2.0",
+    "vue-screen-size": "^1.0.1",
     "vuetify": "^2.4.0"
   },
   "devDependencies": {
